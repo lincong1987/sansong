@@ -1,0 +1,114 @@
+/*
+    Document   : grid.css
+    Encoding   : UTF-8
+    Created on : 2013-7-22, 17:21:42
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: grid.css 1087 2013-08-02 04:48:26Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：表格样式
+
+
+*/
+
+.modal-grid {
+    width:100%;
+    padding: 0px;
+    margin: auto;
+}
+
+.modal-grid .container {
+    position: relative;
+    margin: 10px;
+}
+
+.modal-grid-container .input {
+
+}
+
+.modal-grid-container .select-span {
+}
+
+.modal-grid-container .select-span select {
+}
+
+
+.modal-grid-container table {
+    position: relative;
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #276916;
+}
+.modal-grid-container table a {
+    margin: 0px 5px;
+}
+.modal-grid-container table th,
+.modal-grid-container table td {
+    line-height: 24px;
+    padding: 4px;
+    vertical-align: middle;
+    border-bottom: 1px solid #276916;
+    border-right: 1px solid #276916;
+    word-break: break-all; /*支持IE，chrome，FF不支持*/
+    word-wrap: break-word; /*支持IE，chrome，FF*/
+    font-size: 12px;
+}
+.modal-grid-container table th {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    background: #87D202;
+    font-size: 14px;
+}
+.modal-grid-container table td {
+   color: #333333;
+}
+.modal-grid-container table th span,
+.modal-grid-container table td span {
+    position: relative;
+}
+.modal-grid-container table td a {
+   color: #333333;
+}
+.modal-grid-container table td a:hover {
+   color: #276916;
+}
+
+.modal-grid-container table .odd td {
+    background: #F8F8F8;
+}
+.modal-grid-container table .odd-hover td,
+.modal-grid-container table .even-hover td {
+    background: #C9EFFC;
+}
+
+.modal-grid-actions {
+    position: relative;
+    clear: both;
+    height: 36px;
+    border: 1px solid #276916;
+    border-bottom: none 0;
+}
+.modal-grid-actions .actions-title {
+    float: left;
+}
+.modal-grid-actions .actions-title span {
+    display: block;
+    color: #334313;
+    margin: 8px 0 0 6px;
+    font-size: 15px;
+}
+.modal-grid-actions .action-btns {
+    float: right;
+    padding: 7px;
+}
+.modal-grid-actions .action-btns .btn {
+    display: inline-block;
+    margin-right: 10px;
+}

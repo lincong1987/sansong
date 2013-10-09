@@ -1,0 +1,45 @@
+/*
+    ProjectName: baseframe
+    Document   : button.less
+    Encoding   : UTF-8
+    Created on : 2013-7-26, 15:19:23
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id$
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：各种按钮的样式定义
+*/
+
+
+/*--------------------------
+    以下是变量定义
+--------------------------*/
+
+
+/* 按钮边框颜色 */
+@btnBorderColor: #AEAEAE;
+@btnBorder: 1px solid @btnBorderColor;
+
+/* 按钮 */
+.btnBorderCorners (@radius: 5px) {
+  border-radius:            @radius;
+  -webkit-border-radius:    @radius;
+  -moz-border-radius:       @radius;
+}
+
+
+
+.btn {
+    border: @btn_border;
+
+
+    &:hover, &:actived {
+        border: 1px
+    }
+}

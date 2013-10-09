@@ -1,0 +1,129 @@
+/*
+    ProjectName: baseframe
+    Document   : button.less
+    Encoding   : UTF-8
+    Created on : 2013-7-26, 15:19:23
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: button.css 1247 2013-08-10 20:09:41Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：各种按钮的样式定义
+*/
+
+.btn {
+    display: inline-block;
+    width: 80px;
+    height: 23px;
+    line-height: 23px;
+    margin-right: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    border: 1px #FFF solid;
+    color: #FFFFFF;
+    background-image: url("../../img/modal/button/btn_bg.gif");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    box-shadow: 0 0 5px #CCCCCC;
+    transition: box-shadow linear 0.5s;
+}
+.btn:hover {
+    box-shadow: 0 0 9px #666666;
+    background-position: 0 -25px;
+}
+.btn:hover span {
+}
+
+.btn span,
+.btn button {
+    display: block;
+    padding: 0;
+    _padding-top: 2px;
+    margin: 0;
+    height: 23px;
+    line-height: 23px;
+    width: 100%;
+    font-size: 12px;
+    border: none 0;
+    border-radius: 2px;
+    color: #FFF;
+    background-image: url("../../img/modal/button/btn_bg.gif");
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right -75px;
+    vertical-align: top;
+    text-shadow: 1px 1px 2px #999;
+    cursor: pointer;
+}
+.btn span:hover,
+.btn button:hover {
+    background-position: right -100px;
+}
+.btn span i,
+.btn button i {
+    _margin-top: 0px;
+}
+
+.btn-disabled,
+.btn-disabled:hover {
+    color: #8B8B8B;
+    background: #f3f3f3;
+    border: solid 1px #C1C1C1;
+    cursor: not-allowed;
+}
+
+.btn-gray {
+    background-position: 0 -50px;
+}
+.btn-gray:hover {
+    background-position: 0 -50px;
+}
+.btn-gray span,
+.btn-gray button {
+    background-position: right -125px;
+    color: #999999;
+    text-shadow: 1px 1px 2px #DDDDDD;
+}
+.btn-gray span:hover,
+.btn-gray button:hover {
+    background-position: right -125px;
+    color: #666666;
+}
+
+.btn-search, .btn-reset {
+    background-image: url(../../img/modal/button/btn_search.gif);
+    background-repeat: no-repeat;
+    width: 88px;
+    height: 25px;
+    border: 1px transparent solid;
+    cursor: pointer;
+    margin-right: 20px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.btn-search {
+
+}
+.btn-search:hover {
+    background-position: 0px -24px;
+}
+.btn-reset {
+    background-position: 0px -48px;
+}
+.btn-reset:hover {
+    background-position: 0px -72px;
+}
+
+.btn-edit {
+    margin-top: 20px;
+    text-align: center;
+    color: #dddddd;
+}

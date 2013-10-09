@@ -1,0 +1,91 @@
+/*
+    ProjectName: baseframe
+    Document   : util.css
+    Encoding   : UTF-8
+    Created on : 2013-7-31, 14:26:10
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: util.css 1290 2013-08-12 13:11:19Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：工具类样式
+        包括span布局、align对齐等
+
+*/
+
+.span1 {
+    width: 80px;
+}
+.span2 {
+    width: 120px;
+}
+.span3 {
+    width: 180px;
+}
+.span4 {
+    width: 260px;
+}
+.span5 {
+    width: 360px;
+}
+.span6 {
+    width: 480px;
+}
+.span7 {
+    width: 600px;
+}
+.span8 {
+    width: 720px;
+}
+.span9 {
+    width: 840px;
+}
+.span10 {
+    width: 960px;
+}
+.span11 {
+    width: 1080px;
+}
+.span12 {
+    width: 1200px;
+}
+
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: 500;
+    line-height: 1.1;
+}
+h1, .h1 {
+    font-size: 38px;
+}
+h2, .h2 {
+    font-size: 32px;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h4, .h4 {
+    font-size: 18px;
+}
+h5, .h5 {
+    font-size: 16px;
+}
+h6, .h6 {
+    font-size: 12px;
+}
+
+.datepicker {}

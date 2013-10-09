@@ -1,0 +1,32 @@
+/*
+    ProjectName: platform-webapp-security
+    Document   : all.css
+    Encoding   : UTF-8
+    Created on : 2013-7-24, 14:03:48
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: all.css 1179 2013-08-06 06:39:55Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：
+            未来会用grunt+less来自编译动合并及压缩，目前先用原生css import导入
+
+*/
+@charset "utf-8";
+@import url("button.css");
+@import url("corner.css");
+@import url("path.css");
+@import url("form.css");
+@import url("grid.css");
+@import url("page.css");
+@import url("util.css");
+@import url("icon.css");
+/* 以下是皮肤文件 */
+@import url("themes/default/default.css");
+@import url("themes/yanzi/yanzi.css");
+@import url("themes/lele/lele.css");

@@ -1,0 +1,43 @@
+/*
+    Document   : base
+    Created on : 2013-1-29, 17:33:14
+    Author     : Lincong <lincong1987@gmail.com>
+    Description:
+        基础样式重置表
+*/
+
+/* 文本选中样式 */
+::selection { background:#99cc00;color:white /* Safari */}
+::-moz-selection { background:#99cc00;color:white /* Firefox */}
+
+/* webkit滚动条样式 */
+html {
+    scrollbar-face-color: #F5F8FC;
+    scrollbar-shadow-color: #BAC7DB;
+    scrollbar-highlight-color: #FFF;
+    scrollbar-3dlight-color: #BAC7DB;
+    scrollbar-darkshadow-color: #FFF;
+    scrollbar-track-color: #F4F7FA;
+    scrollbar-arrow-color: #81B0D4;
+}
+::-webkit-scrollbar-track-piece{background-color:#f5f5f5;border-left:1px solid #d2d2d2}
+::-webkit-scrollbar{width:13px;height:13px}
+::-webkit-scrollbar-thumb{background-color:#c2c2c2;background-clip:padding-box;border:1px solid #979797;min-height:28px}
+::-webkit-scrollbar-thumb:hover{border:1px solid #636363;background-color:#929292}
+
+/* Reset S */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,hgroup,menu,nav,section,time,mark,audio,video{margin:0;padding:0;font-family: "Microsoft YaHei",微软雅黑,"Microsoft JhengHei",SimSun,STHeiti,MingLiu,Consolas;font-size: 14px;}
+article,aside,dialog,figure,footer,header,hgroup,nav,section{display:block}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+ul,ul li{list-style-type:none}
+fieldset,img{border:0 none}
+fieldset legend,table caption{display:none}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}
+button,input[type="submit"]{cursor:pointer}
+button,input,select,textarea{font-size:12px;font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",SimSun,STHeiti,MingLiu,Consolas;}
+table{border-collapse:collapse;border-spacing:0}
+abbr[title],dfn[title]{border-bottom:1px #000 dotted;cursor:help}
+ins{background-color:#FF9;color:#000;text-decoration:none}
+mark{background-color:#FF9;color:#000;font-style:italic;font-weight:bold}
+/* Reset E */

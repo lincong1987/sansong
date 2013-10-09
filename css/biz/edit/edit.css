@@ -1,0 +1,110 @@
+/*
+    ProjectName: platform-webapp-account
+    Document   : edit.css
+    Encoding   : UTF-8
+    Created on : 2013-8-6, 20:56:25
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: edit.css 1247 2013-08-10 20:09:41Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：
+
+*/
+
+
+.biz-edit {
+    padding: 10px;
+}
+
+.biz-edit-title {
+    height: 24px;
+}
+.biz-edit-title h6 {
+    color: #F60;
+}
+
+.biz-edit-form-container {
+    position: relative;
+}
+
+.biz-edit-form-container table {
+    width: 100%;
+    font-size: 12px;
+    border: 1px solid #DCDCDC;
+}
+.biz-edit-form-container table a {
+    margin: 0px 5px;
+}
+.biz-edit-form-container table th,
+.biz-edit-form-container table td {
+    line-height: 18px;
+    vertical-align: middle;
+    border-bottom: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    word-break: break-all; /*支持IE，chrome，FF不支持*/
+    word-wrap: break-word; /*支持IE，chrome，FF*/
+    padding: 4px;
+    font-size: 12px;
+}
+.biz-edit-form-container table th {
+    text-align: center;
+    font-weight: normal;
+    color: #454F52;
+    background: #EEEEEE;
+}
+.biz-edit-form-container table td {
+    color: #333333;
+}
+.biz-edit-form-container table th span,
+.biz-edit-form-container table td span {
+    position: relative;
+    font-size: 12px;
+}
+.biz-edit-form-container table td a {
+    color: #333333;
+}
+.biz-edit-form-container table td a:hover {
+    color: #276916;
+}
+.biz-edit-form-container table td label {
+    font-size: 12px;
+}
+.biz-edit-form-container table td input,
+.biz-edit-form-container table td textarea {
+    background: #FFFFFF;
+    font-size: 12px;
+    border: 1px solid #CCC;
+    padding: 3px 0 3px 5px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border linear 0.2s, box-shadow linear 0.2s;
+    border-radius: 3px;
+}
+.biz-edit-form-container table td input:hover,
+.biz-edit-form-container table td textarea:hover {
+    border-color: rgba(163, 163, 163, 0.7);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(192, 192, 192, 0.075), 0 0 8px rgba(90, 90, 90, 0.6);
+}
+.biz-edit-form-container table td input:focus,
+.biz-edit-form-container table td textarea:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+.biz-edit-form-container table td input.validate-error {
+    border-color: #E9322D;
+    box-shadow: 0 0 6px #F8B9B7;
+}
+
+
+.modal-form-actions {
+    margin-top: 20px;
+    text-align: center;
+}

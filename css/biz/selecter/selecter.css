@@ -1,0 +1,29 @@
+/*
+    ProjectName: platform-webapp-account
+    Document   : selecter.css
+    Encoding   : UTF-8
+    Created on : 2013-8-10, 20:46:20
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: selecter.css 1247 2013-08-10 20:09:41Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：
+
+*/
+
+.biz-selecter {
+
+}
+.biz-selecter .biz-tree-title {
+    border: none 0;
+}
+
+.biz-selecter-tree-wrapper {
+    height: 300px;
+}

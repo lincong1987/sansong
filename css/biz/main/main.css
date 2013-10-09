@@ -1,0 +1,349 @@
+/*
+    Document   : login
+    Created on : 2013-6-20, 14:35:54
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: main.css 1296 2013-08-12 14:29:45Z lincong $
+    Description:
+        Purpose of the stylesheet follows.
+*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: #FFFFFF;
+}
+
+.modal-main-header {
+    height: 85px;
+    background: #F4F4E8;
+    overflow: hidden;
+    background: url("../../../img/biz/main/header_bg.gif") repeat-x;
+}
+.modal-main-header-logo, .modal-main-header-bg {
+    height: 85px;
+}
+.modal-main-header-logo {
+    float: left;
+    padding-top: 5px;
+}
+
+.modal-main-header-logo a {
+    margin: 15px 0 0 10px;
+    font-size: 40px;
+    font-family: Corbel;
+    color: #EEE;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #666, 1px 1px 3px #EEE;
+}
+.modal-main-header-logo a:hover {
+
+
+}
+.modal-main-header-logo span {
+    font-size: 12px;
+    color: #0b3f69;
+}
+
+.modal-main-header-bg {
+    float: right;
+    width: 187px;
+}
+
+.modal-main-header-menu {
+    float: right;
+    padding-top: 42px;
+    padding-right: 10px;
+}
+.modal-main-header-menu .container {
+
+}
+.modal-main-header-menu-content {
+
+}
+.modal-main-header-menu-content li {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.modal-main-header-menu-content li.modal-main-header-nav-menu-tab-line {
+
+}
+.modal-main-header-menu-content li.modal-main-header-nav-menu-tab {
+
+}
+.modal-main-header-menu-content li.modal-main-header-nav-menu-tab a {
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0 1px 1px #333;
+}
+.modal-main-header-menu-content li.modal-main-header-nav-menu-tab a:hover {
+    text-decoration: underline;
+}
+.modal-main-header-menu-content li.modal-main-header-nav-menu-tab a span {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+.modal-main-header-menu-content li.modal-main-header-nav-menu-tab a:hover span {
+
+}
+
+
+
+
+
+/* 菜单样式 */
+.modal-main-menu {
+    height: 100%;
+    background: url("../../../img/biz/main/main_menu_bg.png") #F2F2F2;
+}
+
+.modal-main-menu-user {
+    height: 34px;
+    overflow: hidden;
+    background: url("../../../img/biz/main/main_menu_user_icon.png") 10px 3px #C6ECC7 no-repeat;
+    border-bottom: 1px #999999 solid;
+}
+.modal-main-menu-user span {
+    display: block;
+    color: #163504;
+    /*padding-top: 6px;*/
+    padding-left: 45px;
+    font-size: 17px;
+    height: 34px;
+    line-height: 34px;
+}
+
+.modal-main-menu-fast {
+    height: 97px;
+    clear: both;
+}
+.modal-main-menu-fast ul {
+
+}
+.modal-main-menu-fast ul li {
+    float: left;
+    display: inline-block;
+    height: 97px;
+    width: 100px;
+}
+.modal-main-menu-fast ul li a {
+    display: block;
+    color: #026442;
+    cursor: pointer;
+}
+.modal-main-menu-fast ul li a i {
+    display: block;
+    height: 53px;
+    width: 53px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.icon-work-notify {
+    background: url("../../../img/biz/main/main_menu_fast.png") no-repeat;
+}
+.icon-work-welcome {
+    background: url("../../../img/biz/main/main_menu_fast.png") no-repeat;
+}
+.modal-main-menu-fast ul li a span {
+    display: block;
+    width: 110px;
+    font-size: 14px;
+    color: #026442;
+    font-weight: bold;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 5px;
+}
+.modal-main-menu-fast ul li a:hover span {
+    text-decoration: underline;
+}
+.modal-main-menu-fast-line {
+    height: 1px;
+    background: url("../../../img/biz/main/main_menu_fast_bottom_line.png") no-repeat;
+}
+
+.modal-main-menu-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-top: 5px;
+}
+.modal-main-menu-content .container {
+
+}
+.modal-main-menu-level-0 {/* this node is ul */
+    height: 87px;
+}
+.modal-main-menu-level-0 li {
+    width: 100px;
+    height: 87px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.modal-main-menu-level-0 li div {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.modal-main-menu-level-0 li div img {
+    height: 50px;
+    width: 50px;
+    border: 0 none;
+}
+.modal-main-menu-level-0 li span {
+    display: inline-block;
+    margin-top: 4px;
+    padding: 0 8px;
+    height: 20px;
+    line-height: 20px;
+    max-width: 100px;
+    color: #008A59;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+.modal-main-menu-level-1 {/* this node is div */
+    clear: both;
+    display: none;
+    overflow: hidden;
+}
+.modal-main-menu-level-1 ul {
+    padding: 0 38px;
+    width: 130px;
+    clear: both;
+    overflow: hidden;
+    background: url("../../../img/biz/main/main_menu_level_1_bg.png") no-repeat 30px -30px;
+}
+/* 奇 */
+.modal-main-menu-level-1 .modal-main-menu-arrow-top {
+    background: url("../../../img/biz/main/main_menu_level_1_bg.png") no-repeat 30px 0;
+    height: 15px;
+}
+/* 偶 */
+.modal-main-menu-level-1 .even {
+    background: url("../../../img/biz/main/main_menu_level_1_bg.png") no-repeat 30px -15px;
+    height: 15px;
+}
+.modal-main-menu-level-1 .modal-main-menu-arrow-bottom {
+    background: url("../../../img/biz/main/main_menu_level_1_bg.png") no-repeat 30px -395px;
+    height: 5px;
+}
+.modal-main-menu-level-1 ul li {
+    width: 65px;
+    height: 60px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.modal-main-menu-level-1 ul li div {
+    margin: 0 auto;
+    margin-top: 6px;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+}
+.modal-main-menu-level-1 ul li div img {
+    border: 0 none;
+    height: 30px;
+    width: 30px;
+}
+.modal-main-menu-level-1 ul li div img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.modal-main-menu-level-1 ul li span {
+    display: inline-block;
+    margin-top: 3px;
+    height: 20px;
+    line-height: 20px;
+    width: 65px;
+    color: #008A59;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+    _text-overflow: none;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+/* footer */
+.modal-main-footer {
+
+}
+.modal-main-footer-warp {
+    background: url("../../../img/biz/main/main_footer_bg.png") repeat-x;
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+    padding-top: 3px;
+    _padding-top: 5px;
+}
+.modal-main-footer-copyright {
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.modal-main-footer-copyright a {
+    font-size: 12px;
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-main-footer-copyright a:hover {
+    text-decoration: underline;
+}
+
+
+
+.biz-theme-selecter {
+    display: none;
+    width: 500px;
+    height: 150px;
+    overflow: hidden;
+}
+.biz-theme-selecter ul {
+    width: 2000px;
+}
+.biz-theme-selecter ul li {
+    display: inline-block;
+    float: left;
+    margin-right: 25px;
+    width: 150px;
+    height: 150px;
+}
+.biz-theme-selecter ul li a {
+    display: block;
+    width: 148px;
+    height: 148px;
+    border: 1px solid #ccc;
+    background: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}
+.biz-theme-selecter ul li a:hover {
+    border: 1px solid #333;
+    background: #e1e0d7;
+}
+.biz-theme-selecter ul li a img {
+    width: 148px;
+    height: 120px;
+    border: none 0;
+}
+.biz-theme-selecter ul li a span {
+    font-size: 12px;
+}

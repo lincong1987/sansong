@@ -1,0 +1,104 @@
+/*
+    Document   : form.css
+    Encoding   : UTF-8
+    Created on : 2013-7-22, 17:21:49
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: form.css 1247 2013-08-10 20:09:41Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：
+
+*/
+
+.modal-form {
+    width:100%;
+    padding: 0px;
+    margin: auto;
+}
+
+.modal-form .container {
+
+}
+.modal-form .table-container {
+    position: relative;
+    margin: 10px;
+    padding: 7px;
+    border: 1px #276916 solid;
+}
+
+.modal-form .input {
+
+}
+
+.modal-form .select-span {
+}
+
+.modal-form .select-span select {
+}
+
+.modal-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.modal-form table tr {
+    text-align: right;
+    font-size: 13px;
+    color: #334313;
+}
+.modal-form table td {
+    text-align: left;
+    font-size: 12px;
+    color: #334313;
+    padding: 4px;
+}
+
+.modal-form table td input {
+    border: 1px #E5E5E5 solid;
+    border-top-color: #999999;
+    border-left-color: #999999;
+    background: #F9F9F9;
+    height: 20px;
+    line-height: 20px;
+    _padding-top: 3px;
+}
+
+
+
+
+
+/* Allow for input prepend/append in search forms */
+.form-search .input-append,
+.form-search .input-prepend {
+    clear: both;
+}
+.form-search .input-append .search-query,
+.form-search .input-prepend .search-query {
+          border-radius: 0;
+          float: left;
+}
+
+.form-search .input-append .search-query {
+          border-radius: 2px 0 0 2px;
+          float: left;
+}
+
+.form-search .input-append .btn {
+          border-radius: 0 2px 2px 0;
+          float: left;
+}
+
+.form-search .input-prepend .search-query {
+          border-radius: 0 2px 2px 0;
+          float: left;
+}
+
+.form-search .input-prepend .btn {
+          border-radius: 2px 0 0 2px;
+          float: left;
+}

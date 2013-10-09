@@ -1,0 +1,56 @@
+/*
+    ProjectName: baseframe
+    Document   : corner.css
+    Encoding   : UTF-8
+    Created on : 2013-7-30, 16:11:23
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: corner.css 1194 2013-08-06 15:27:43Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：盒子圆角
+
+*/
+
+.corner-top-left,
+.corner-top-right,
+.corner-bottom-left,
+.corner-bottom-right {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: url(../../img/modal/corner/corner.png);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    z-index: 100;
+    _zoom: 1;
+}
+.corner-gray {
+    background-image: url(../../img/modal/corner/corner_gray.png);
+}
+.corner-top-left {
+    top: 0px;
+    left: 0px;
+    background-position: 0 0;
+}
+.corner-top-right {
+    top: 0px;
+    right: 0px;
+    background-position: -12px 0;
+}
+.corner-bottom-left {
+    bottom: 0px;
+    left: 0px;
+    background-position: 0 -12px;
+}
+.corner-bottom-right {
+    bottom: 0px;
+    right: 0px;
+    background-position: -12px -12px;
+}

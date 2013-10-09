@@ -1,0 +1,46 @@
+/*
+    ProjectName: baseframe
+    Document   : path.css
+    Encoding   : UTF-8
+    Created on : 2013-7-24, 14:49:00
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: path.css 1087 2013-08-02 04:48:26Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：path 面包屑 模块样式定义
+
+*/
+
+.modal-path {
+    height: 34px;
+    line-height: 34px;
+    color: #334313;
+    border-bottom: 1px #999999 solid;
+    background: #C6ECC7;
+    overflow: hidden;
+}
+
+.modal-path .container {
+    margin-left: 13px;
+}
+
+.modal-path span {
+    font-size: 15px;
+    color: #999999;
+}
+
+.modal-path a {
+    margin: 0 10px;
+    color: #999999;
+}
+
+.modal-path a:hover {
+    color: #344314;
+    cursor: pointer;
+}

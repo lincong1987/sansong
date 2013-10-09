@@ -1,0 +1,71 @@
+/*
+    Document   : page.css
+    Encoding   : UTF-8
+    Created on : 2013-7-22, 17:21:16
+    Author     : Lincong <lincong1987@gmail.com>
+    Version    : $Id: page.css 1087 2013-08-02 04:48:26Z lincong $
+    Help       :
+            @charset
+            @import
+            @media
+            @namespace
+            @page
+            @font-face
+    Description:
+        本文件描述：分页样式
+
+
+*/
+
+.modal-page {
+    text-align: left;
+    padding: 0 20px;
+    vertical-align: top;
+    clear: both;
+    height: 30px;
+    /*margin: 5px 7px 10px 15px;*/
+    margin-top: 5px;
+}
+.modal-page .btn {
+    float: right;
+    margin-left: 6px;
+    width: 59px;
+    height: 22px;
+    border-radius: 2px;
+    border: none 0;
+    color: #334313;
+    background: url("../../images/button/page_btn_bg.png") #BABABA no-repeat;
+    cursor: pointer;
+}
+
+.modal-page .btn:hover {
+
+}
+
+.modal-page .btn-disabled {
+    color: #C1C1C1;
+    cursor: not-allowed;
+    background: url("../../images/button/page_btn_bg.png") 0 -22px #BABABA no-repeat;
+}
+
+.modal-page .gotoPage {
+    background: none 0;
+    color: #334313;
+    font-size: 12px;
+    width: 30px;
+}
+.modal-page .toPage {
+    border: 1px #276916 solid;
+    border-radius: 2px;
+    text-align: center;
+    width: 30px;
+    height: 18px;
+    line-height: 18px;
+    float: right;
+}
+
+.modal-page span {
+    float: left;
+    color: #334313;
+    font-size: 12px;
+}

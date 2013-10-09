@@ -1,0 +1,67 @@
+/*
+    Document   : common
+    Created on : 2013-1-30, 16:09:56
+    Author     : Lincong <lincong1987@gmail.com>
+    Description:
+        common modal
+*/
+html, body {
+    background: #FFFFFF;
+    overflow-x: hidden;
+}
+/* 通用 */
+.clearfix {
+    clear: both;
+    display: block;
+}
+.container {
+    margin: 0 auto;
+}
+
+.wrapper {
+    background: #FFFFFF;
+    width: 1000px;
+    min-width: 900px;
+    margin: 0 auto;
+}
+
+.wrapper-auto {
+    width: 100%;
+    min-width: 100%;
+}
+
+/* 模块 */
+.modal-header {
+    height: 160px;
+    background: #FFFFFF;
+}
+.modal-main {
+
+}
+.modal-main .container {
+    background: #FFFFFF;
+}
+
+.modal-footer,
+.modal-footer .container {
+    height: 52px;
+}
+.modal-footer .container {
+    background: url("../images/common/modal_footer_bg.png") #FFFFFF;
+    text-align: center;
+    color: #666;
+}
+.modal-footer-warp {
+    padding-top: 8px;
+}
+
+/* common */
+.modal-left-right {
+    width: 100%;
+}
+.modal-left {
+    vertical-align: top;
+}
+.modal-right {
+    vertical-align: top;
+}
